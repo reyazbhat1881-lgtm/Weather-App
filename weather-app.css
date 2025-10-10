@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+.cointainer{
+width: 100%;
+height: 100vh;
+background-color: brown;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.weather-container{
+    color: white;
+}
+
+.temp{
+    font-size: 4.5rem;
+}
+
+.time-and-location{
+    font-size: 2rem;
+}
+
+.condition{
+    margin: 0.5;
+    margin-left: 5px;
+}
+
+nav{
+    height: 50px;
+}
+
+.location{
+    padding: 2px;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 1rem;
+    border-bottom: 2px solid white;
+    margin-left: 40px;
+}
+
+nav form button{
+    padding: 0.2rem;
+        background-color: white;
+        margin-top: 1rem;
+        font-size: 1.1rem;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        display: block;
+        margin-left: 40px;
+}
