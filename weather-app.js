@@ -12,4 +12,4 @@ const data = await res.json()
 console.log(data);
 
 }
-fetchDetails()
+fetchDetails() /// added a commit
