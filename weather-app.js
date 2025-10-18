@@ -11,7 +11,14 @@ const data = await res.json()
 
 console.log(data);
 
-}
-fetchDetails() /// added a commit
+let locationName = data.location.name
+let time = data.location.localtime
 
-//dv
+let temp = data.current.temp_c
+
+let conditon = data.current.conditon.text
+
+}
+
+fetchDetails(targetLocation) 
+
